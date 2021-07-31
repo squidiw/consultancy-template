@@ -1,0 +1,64 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+@import "fonts";
+body {
+   background-color: #f7f7f2 !important;
+   color: #312f2f !important;
+   font-family: $text-regular !important;
+}
+
+@import "home-styles";
+@import "about-styles";
+@import "services-style";
+@import "book";
+@import "text";
+
+$primary: #c5d86d;
+$secondary: #f05d23;
+
+$theme-colors: (
+   "primary": #c5d86d,
+   "secondary": #f05d23,
+);
+
+.btn-primary {
+   color: whitesmoke !important;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   transition: 0.5s !important;
+   border-radius: 12px !important;
+
+   &:hover {
+      color: $secondary !important;
+      background-color: whitesmoke !important;
+      border: 1px solid $secondary !important;
+      border-radius: 20px !important;
+   }
+}
+
+.btn-secondary {
+   color: whitesmoke !important;
+   text-transform: capitalize;
+
+   letter-spacing: 1px;
+   transition: 0.5s !important;
+   border-radius: 12px !important;
+
+   &:hover {
+      color: #fff !important;
+      background-color: $primary !important;
+      border: 1px solid $primary !important;
+   }
+}
+
+
+@import "scss/functions";
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/root";
+@import "scss/buttons";
+@import "scss/reboot";

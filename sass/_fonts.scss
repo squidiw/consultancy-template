@@ -1,0 +1,12 @@
+@font-face{
+    src: url(../assets/fonts/JosefinSans-Regular.ttf);
+    font-family: 'JosefinSans-Regular';
+}
+
+@font-face{
+    src: url(../assets/fonts/JosefinSlab-Regular.ttf);
+    font-family: 'JosefinSlab-Regular';
+}
+
+$heading-regular: 'JosefinSlab-Regular';
+$text-regular: 'JosefinSans-Regular';

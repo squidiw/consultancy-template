@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+    font-family: $heading-regular;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+p.sub-heading{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+.book_link{
+    font-size: 1.2rem;
+    font-weight: bold;
+ }
+
+ .active{
+     > a{
+         color: black;
+     }
+ }
+
+ .underlined {
+    border-bottom: 3px solid #f05d23;
+ }
+
+ .error{
+     color: #f05d23;
+     font-weight: bold;
+ }

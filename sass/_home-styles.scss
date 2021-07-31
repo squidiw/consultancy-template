@@ -1,0 +1,121 @@
+header {
+   .nav-link {
+      font-weight: bold;
+      letter-spacing: 1px;
+
+      &:last-child {
+         margin-right: 5px;
+      }
+   }
+}
+
+.home-hero {
+   min-height: 100vh;
+   background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(58, 57, 57, 0.5)),
+      url(../../assets/imgs/tax3.jpg) bottom center no-repeat;
+   background-size: cover;
+
+   .jumbotron {
+      margin-bottom: 0 !important;
+      padding-top: 25vh;
+      background-color: transparent !important;
+      text-align: center;
+
+      h1,
+      h4 {
+         color: #e4e6c3;
+         font-family: $heading-regular;
+      }
+   }
+}
+
+.quick_book {
+   min-height: 20vh;
+   background-color: #312f2f;
+   color: #e4e6c3;
+
+   .row {
+      min-height: 20vh;
+   }
+}
+
+.summary_about_me {
+   background-color: #efefef;
+}
+
+.services_banner {
+   min-height: 40vh;
+   background-color: #312f2f;
+   color: #e4e6c3;
+   background-image: linear-gradient(
+         rgba(61, 56, 56, 0.7),
+         rgba(61, 56, 56, 0.7)
+      ),
+      url(../../assets/imgs/tax4.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+   .row {
+      min-height: 40vh;
+   }
+}
+
+.testimony-container {
+   background-color: #efefef;
+   margin-top: 0 !important;
+
+   .testimonial__caption {
+      text-transform: capitalize;
+   }
+}
+.owl-carousel {
+   .block-testimony {
+      color: grey;
+      padding: 30px;
+      border: 1px solid #e7e4e4;
+   }
+
+   h2 {
+      font-size: 1.3rem;
+   }
+   p {
+      font-size: 1rem;
+      margin: 0 0 1rem;
+   }
+}
+@media only screen and (max-width: 576px) {
+   .testimony-container {
+      margin-top: 4em;
+   }
+}
+@media (min-width: 40em) {
+   .owl-carousel {
+      h2 {
+         font-size: 1.5rem;
+      }
+
+      p {
+         font-size: 1.2rem;
+      }
+   }
+}
+
+footer {
+   min-height: 20vh;
+   // background-color: #312f2f;
+   // color: #e4e6c3;
+   color: #312f2f;
+
+   a {
+      text-transform: capitalize;
+      font-weight: bold;
+      // color: #e4e6c3;
+      color: #312f2f;
+
+      &:hover {
+         text-decoration: none !important;
+      }
+   }
+}
